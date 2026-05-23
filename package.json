@@ -1,0 +1,19 @@
+{
+  "name": "sparkly-shortbread-34a8b0-source",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IF Investment Fortune Astra Oracle static site source",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo \"Static site - no build step\""
+  },
+  "keywords": [
+    "if",
+    "investment",
+    "fortune",
+    "oracle",
+    "netlify"
+  ],
+  "license": "UNLICENSED"
+}
+
