@@ -22,7 +22,10 @@ Then open the printed local URL in a browser.
 
 `index.html` uses Supabase Auth with the bundled `supabase.js` browser client.
 
-- Google: enable Authentication > Providers > Google.
-- Kakao: enable Authentication > Providers > Kakao.
-- Naver: create a Supabase custom OAuth/OIDC provider with provider id `naver`, then add Naver client credentials. The app calls it as `custom:naver`.
-- Add the deployed Netlify URL to Supabase Authentication > URL Configuration > Site URL and Redirect URLs.
+- Supabase project: `IF (INVESTMENT FORTUNE)` / `srccoltrdxdgstlkkaux`.
+- Site URL: `https://sparkly-shortbread-34a8b0.netlify.app`.
+- Redirect URLs: add `https://sparkly-shortbread-34a8b0.netlify.app/**`.
+- OAuth callback URL for Google/Kakao/Naver developer consoles: `https://srccoltrdxdgstlkkaux.supabase.co/auth/v1/callback`.
+- Google: enable Authentication > Providers > Google and save the Google Client ID/Secret.
+- Kakao: enable Authentication > Providers > Kakao and save the Kakao REST API Key/Client Secret.
+- Naver: create a Supabase custom OAuth/OIDC provider with provider id `naver`, then save the Naver Client ID/Secret. The app calls it as `custom:naver`.
